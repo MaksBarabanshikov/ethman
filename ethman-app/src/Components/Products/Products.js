@@ -6,11 +6,7 @@ import "./Products.css"
 function Products() {
     return (
         <div className="products">
-            <div className="slider">
-                <div className="slider__track" id="slider-track">
-                    <SliderList sliderData={sliderData}/>
-                </div>
-            </div>
+            <SliderList sliderData={sliderData}/>
         </div>
     )
 }
