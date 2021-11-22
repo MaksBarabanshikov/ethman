@@ -1,12 +1,17 @@
 import React from "react";
-import Ethmen from "./Components/Ethman";
+import Context from "./context";
+import Header from "./Components/Header/Header";
+import Products from "./Components/Products/Products";
 
 function App() {
-  return (
-    <div className="wrapper">
-        <Ethmen/>
-    </div>
-  );
+    return (
+        <Context.Provider value={{}}>
+            <div className="wrapper">
+                <Header/>
+                <Products/>
+            </div>
+        </Context.Provider>
+    );
 }
 
 export default App;

@@ -1,0 +1,98 @@
+#ethmen .products {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    color: white;
+}
+
+#ethmen .products .slider {
+    padding: 3rem 0;
+}
+
+#ethmen .products .slider .slider__track {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+#ethmen .products .slider ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+#ethmen .products .slider ul .sliderItem {
+    text-align: center;
+    width: 382px;
+    padding: 3.5rem 2rem;
+    margin: 2rem 1rem;
+    border-radius: 4px;
+    box-sizing: border-box;
+    list-style-type: none!important;
+    flex-shrink: 0;
+    position: relative;
+    outline: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#ethmen .products .slider ul h3 {
+    font-size: 2rem;
+}
+#ethmen .products .slider ul h4 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    transform: translateY(10px);
+}
+
+#ETHMEN_3D {
+    background-image: url('../../img/products/3d_background.jpg');
+}
+
+#ETHMEN_Store {
+    background-image: url('../../img/products/store_background.jpg');
+}
+
+#ETHMEN_Exclusive {
+    background-image: url('../../img/products/exclusive_background.jpg');
+}
+
+#Reavers_Collection {
+    background-image: url('../../img/products/reavers_background.jpg');
+}
+
+#ETHMEN_Legacy {
+    background-image: url('../../img/products/slider_background.jpg');
+    background-size: 200%!important;
+    background-position: top left!important;
+}
+
+#ETHMEN_Reloaded {
+    background-image: url('../../img/products/slider_background.jpg');
+    background-size: 200%!important;
+    background-position: bottom left!important;
+}
+#ETHMEN_Avatars {
+    background-image: url('../../img/products/avatar_background.jpg');
+}
+
+#ETHMEN_Comic {
+    background-image: url('../../img/products/header_background.jpg');
+    background-size: 250%!important;
+    background-position: top left!important;
+}
+
+#ETHMEN_Comic_unsealed {
+    background-image: url('../../img/products/header_background.jpg');
+    background-size: 200%!important;
+    background-position: bottom right!important;
+}
