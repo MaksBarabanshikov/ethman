@@ -1,27 +1,12 @@
 import React from "react"
 import logo from "../../img/header/eth-men_logo.png"
 import "./Header.css";
+import HeaderInnerOne from "./HeaderInnerOne";
 
-export default function Header() {
+function Header() {
     return (
         <header className="header">
-            <div className="header__inner-one">
-                <div className="logo">
-                    <a href="/" title="ETH-MEN">
-                        <img src={logo} alt="ETH-MEN Logo" className="logo"/>
-                    </a>
-                </div>
-                <div className="header__nav nav">
-                    <nav>
-                        <ul className="header__list nav">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Wiki</a></li>
-                            <li><a href="#">Catalogue</a></li>
-                            <li><a href="#">Wallet</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+            <HeaderInnerOne />
             <div className="header__inner-two">
                 <div className="description">
                     <h1>ETH-MEN Collection</h1>
@@ -35,3 +20,5 @@ export default function Header() {
         </header>
     )
 }
+
+export default Header

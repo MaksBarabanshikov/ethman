@@ -1,8 +1,10 @@
 import React from "react";
 import Header from "./Header/Header";
 
-export default function Ethmen() {
+function Ethmen() {
     return (
         <Header/>
     )
 }
+
+export default Ethmen

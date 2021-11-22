@@ -15,56 +15,6 @@
     background-position: center center;
 }
 
-#ethmen .header .header__inner-one {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 3rem 3rem;
-}
-
-#ethmen .header .header__inner-one .logo {
-    max-width: 12rem;
-    width: 100%;
-}
-
-#ethmen .header .header__inner-one .nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    list-style-type: none;
-    font-size: 1.2rem;
-    margin-left: auto;
-    padding: 0 3.5rem;
-}
-
-#ethmen .header .header__inner-one .nav li {
-    padding: 0.5rem 0.5rem;
-}
-
-#ethmen .header .header__inner-one .nav li a {
-    text-decoration: none;
-    white-space: nowrap;
-}
-
 #ethmen .header .header__inner-two {
     display: -ms-flexbox;
     display: flex;
