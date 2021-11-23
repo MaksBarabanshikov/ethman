@@ -47,3 +47,8 @@
     text-decoration: none;
     white-space: nowrap;
 }
+
+#ethmen .header .header__inner-one .nav li a:hover {
+    color: #d6d6d6;
+    text-shadow: 0 0 5px #000;
+}
