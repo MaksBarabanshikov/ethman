@@ -1,0 +1,78 @@
+.newsletter{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 3rem;
+    background-color: #5c6f51;
+    color: white;
+    font-family: "Sigmar One", serif;
+    background-image: url('../../img/newsletter/newsletter_background.jpg');
+    background-size: 100%;
+    background-position: center center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.newsletter .module__table h2 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    -webkit-text-stroke: 1px #506046;
+}
+
+.newsletter .module__table .module__input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.newsletter .module__table .module__input .module__cell {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+}
+
+.newsletter .module__table .module__input .module__cell {
+    width: 100%;
+    font-size: 1.5rem;
+}
+.newsletter .module__table .module__input .module__cell input {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    padding: 0.33rem;
+    text-align: center;
+    border: 2px solid #506046;
+    color: #494949;
+    width: 100%;
+    max-width: 90%;
+    outline: none;
+}
+
+#ethmen .newsletter .module__button input {
+    background-color: #506046;
+    color: white;
+    padding: 1rem;
+    border: 0;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}

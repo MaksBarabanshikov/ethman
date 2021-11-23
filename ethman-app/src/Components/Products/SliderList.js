@@ -17,6 +17,7 @@ function SliderList(props) {
                 autoplay: true,
                 interval: 3000,
                 arrows: false,
+                flickPower: 100,
                 breakpoints: {
                     1000: {
                         perPage: 2,
