@@ -4,16 +4,18 @@ import Header from "./Components/Header/Header";
 import Products from "./Components/Products/Products";
 import NewsLetter from "./Components/NewsLetter/NewsLetter";
 import Footer from "./Components/Footer/Footer"
-import Wiki from "./Pages/Wiki/Wiki";
+import WikiPage from "./Pages/Wiki/Wiki";
+import './Components/Header/HeaderInnerOne.css'
 
 function App() {
     return (
         <Context.Provider value={{}}>
             <div className="wrapper">
-                <Header/>
-                <Products/>
-                <NewsLetter/>
-                <Footer/>
+                {/*<Header/>*/}
+                {/*<Products/>*/}
+                {/*<NewsLetter/>*/}
+                {/*<Footer/>*/}
+                <WikiPage/>
             </div>
         </Context.Provider>
     );

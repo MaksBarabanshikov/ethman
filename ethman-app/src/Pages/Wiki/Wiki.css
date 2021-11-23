@@ -1,0 +1,84 @@
+#ethmen .header__inner-one{
+    background-image: url('../../img/header/header_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#ethmen .content {
+    background-color: #f3efe0;
+    padding: 3rem;
+    background-image: url('../../img/wiki/comic_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+#ethmen .content h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+#ethmen .content .content__collapsible{
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#ethmen .content .content__collapsible:last-child {
+    border-bottom: none;
+}
+
+#ethmen .content .Collapsible {
+    border-bottom: 1px solid #353535;
+    background: #494949;
+    color: #eee;
+    font-family: "Open Sans",Arial,Helvetica,sans-serif;
+    cursor: pointer;
+    transition: all linear 0.15s;
+}
+
+#ethmen .content .Collapsible:last-child {
+    border:none
+}
+
+#ethmen .content .Collapsible .Collapsible__trigger {
+    padding: 1em;
+    display: block;
+    position: relative;
+    text-decoration: underline;
+    font-size: 110%;
+}
+#ethmen .content .Collapsible .Collapsible__contentInner {
+    padding: 15px;
+    display: block;
+    font-weight: 400;
+    position: relative;
+    background-color: #f3efe0;
+    color: #494949;
+    line-height: 1.15;
+    border-left: 1px solid rgba(0, 0, 0, .2);
+    border-right: 1px solid rgba(0, 0, 0, .2);
+}
+
+#ethmen .content .Collapsible .Collapsible__contentInner:last-child {
+    border-bottom: 1px solid rgba(0, 0, 0, .2);;
+}
+
+#ethmen .content .Collapsible .Collapsible__contentInner a{
+    color: #494949;
+}
+
+#ethmen .content .Collapsible:hover {
+    background-color: #3f3f3f;
+}
+#ethmen .content .Collapsible:hover .Collapsible__trigger{
+    text-decoration: none;
+}
+
+#ethmen .content .is-open {
+    text-decoration: none!important;
+    background-color: #3f3f3f!important;
+}
+
+

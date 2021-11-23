@@ -1,7 +1,6 @@
 import React from "react";
 import SliderItem from "./SliderItem";
 import {Splide, SplideSlide} from "@splidejs/react-splide";
-
 import '@splidejs/splide/dist/css/splide.min.css';
 
 function SliderList(props) {

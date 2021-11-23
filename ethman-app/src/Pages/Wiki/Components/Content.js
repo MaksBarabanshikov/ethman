@@ -61,7 +61,6 @@ function ContentWiki() {
                         contract.</p>
                 </Collapsible>
                 <Collapsible trigger="Where can I find all different collections?">
-                    <p>
                         <a href="https://opensea.io/assets/eth-men" target="_blank">https://opensea.io/assets/eth-men
                             (Legacy)</a>
                         <a href="https://opensea.io/assets/eth-men-2-0" target="_blank">https://opensea.io/assets/eth-men-2-0
@@ -77,7 +76,6 @@ function ContentWiki() {
                             (Voxels)</a>
                         <a href="https://opensea.io/assets/eth-men-subscriptions"
                            target="_blank">https://opensea.io/assets/eth-men-subscriptions</a>
-                    </p>
                 </Collapsible>
                 <Collapsible trigger="The Adventures of the ETH-MEN Comic WIKI">
                     <a href="https://ethmen-official.fandom.com/wiki/The_Adventures_of_the_ETH-MEN_Comic#Plot"
