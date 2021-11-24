@@ -1,18 +1,13 @@
 import React from "react";
-import Header from "../../Components/Header/Header";
-import Products from "../../Components/Products/Products";
-import NewsLetter from "../../Components/NewsLetter/NewsLetter";
-import Footer from "../../Components/Footer/Footer";
+import SliderList from "./SliderList";
+import sliderData from "../../assets/sliderData";
+import './Slider.css'
 
 function HomePage() {
     return (
-        <>
-            <Header/>
-            <Products/>
-            <NewsLetter/>
-            <Footer/>
-        </>
-
+            <div className="products">
+                <SliderList sliderData={sliderData}/>
+            </div>
     )
 }
 

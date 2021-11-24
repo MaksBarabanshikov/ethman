@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../img/header/eth-men_logo.png";
 import "./HeaderInnerOne.css";
+import {NavLink} from "react-router-dom";
 
 function HeaderInnerOne() {
     return (
@@ -11,14 +12,10 @@ function HeaderInnerOne() {
                 </a>
             </div>
             <div className="header__nav nav">
-                <nav>
-                    <ul className="header__list nav">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Wiki</a></li>
-                        <li><a href="#">Catalogue</a></li>
-                        <li><a href="#">Wallet</a></li>
-                    </ul>
-                </nav>
+                        <NavLink to="/">Home</NavLink>
+                        <NavLink to="/wiki">Wiki</NavLink>
+                        <NavLink to="/catalogue">Catalogue</NavLink>
+                        <NavLink to="/wallet">Wallet</NavLink>
             </div>
         </div>
     )
