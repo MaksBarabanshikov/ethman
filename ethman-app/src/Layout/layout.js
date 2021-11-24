@@ -1,8 +1,8 @@
 import React from "react"
-import Header from "../Header/Header"
-import Footer from "../Footer/Footer"
+import Header from "../Components/Header/Header";
+import Footer from "../Components/Footer/Footer";
 import {Outlet} from "react-router-dom";
-import NewsLetter from "../NewsLetter/NewsLetter";
+import NewsLetter from "../Components/NewsLetter/NewsLetter";
 
 
     function Layout() {

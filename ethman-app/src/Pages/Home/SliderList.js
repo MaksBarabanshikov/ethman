@@ -26,10 +26,10 @@ function SliderList(props) {
                     }
                 },
             }}>
-            {props.sliderData.map(sliderData => {
+            {props.categoryData.map(categoryData => {
                 return (
-                    <SplideSlide className={sliderData.id} key={sliderData.id}>
-                        <SliderItem sliderData={sliderData}/>
+                    <SplideSlide className={categoryData.id} key={categoryData.id}>
+                        <SliderItem categoryData={categoryData}/>
                     </SplideSlide>
                 )
             })}

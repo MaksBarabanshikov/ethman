@@ -8,6 +8,7 @@ function Header() {
     const location = useLocation();
 
     const homePage = location.pathname
+
         if (homePage === '/') {
           return(
               <header className="header" >

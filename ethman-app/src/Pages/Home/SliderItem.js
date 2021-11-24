@@ -1,10 +1,10 @@
 import React from "react";
 
-function SliderItem({sliderData}) {
+function SliderItem({categoryData}) {
     return (
-            <a href={sliderData.href} target="_blank" rel="noreferrer">
-                <h3>{sliderData.title}</h3>
-                <h4>{sliderData.subtitle}</h4>
+            <a href={categoryData.href} target="_blank" rel="noreferrer">
+                <h3>{categoryData.title}</h3>
+                <h4>{categoryData.subtitle}</h4>
             </a>
     )
 }

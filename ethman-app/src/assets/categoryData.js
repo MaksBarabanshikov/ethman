@@ -1,4 +1,4 @@
-const sliderData = [
+const categoryData = [
     {id: 'ETHMEN_3D', href: "#", title: 'ETH-MEN', subtitle: '3D'},
     {id: 'ETHMEN_Store', href: "#", title: 'ETH-MEN', subtitle: 'Store'},
     {id: 'ETHMEN_Exclusive', href: "#", title: 'ETH-MEN', subtitle: 'Exclusive'},
@@ -10,4 +10,4 @@ const sliderData = [
     {id: 'ETHMEN_Comic_unsealed', href: "#", title: 'ETH-MEN', subtitle: 'Comic unsealed'}
 ]
 
-export default sliderData
+export default categoryData
