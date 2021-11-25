@@ -15,7 +15,7 @@ function HeaderInnerOne() {
                         <NavLink to="/">Home</NavLink>
                         <NavLink to="/wiki">Wiki</NavLink>
                         <NavLink to="/catalogue">Catalogue</NavLink>
-                        <NavLink to="/wallet">Wallet</NavLink>
+                        <NavLink to="/wallet" target="_blank">Wallet</NavLink>
             </div>
         </div>
     )
