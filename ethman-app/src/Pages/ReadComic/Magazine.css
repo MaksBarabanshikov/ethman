@@ -1,0 +1,19 @@
+.comics {
+    display: block;
+    position: relative;
+    max-width: 1200px;
+    max-height: 100vh;
+    margin: auto;
+}
+
+.page {
+    position: absolute;
+}
+
+.comics .page img {
+    position: absolute;
+    display: block;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}

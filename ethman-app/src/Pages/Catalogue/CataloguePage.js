@@ -5,7 +5,7 @@ import "./Categorue.css"
 import itemsData from "../../assets/ItemsData";
 import ViewImage from "./Component/Content/ViewImage";
 
-function CataloguePage() {
+function CataloguePage({getPages}) {
     const [selectedCategory, setSelectedCategory] = useState('comics')
     const [visible, setVisible] = useState(false)
     const [imgSrc, setImgSrc] = useState('')
@@ -36,10 +36,6 @@ function CataloguePage() {
         document.body.style.overflow = "auto"
     }
 
-    function handlerGetPages(pages) {
-        console.log(pages)
-    }
-
     let viewImage = visible ? ((<ViewImage img={imgSrc} onClick={handlerClose}/>)) : undefined;
     return (
         <div className="catalogue">
@@ -49,7 +45,7 @@ function CataloguePage() {
                     <div id="ethmen-catalogue">
                         <CatalogueCategory category={category} checkId={handlerClick}/>
                         <CatalogueContent itemsData={itemsData} selectedCategory={selectedCategory}
-                                          openImg={handlerOpen} getPages={handlerGetPages}/>
+                                          openImg={handlerOpen} getPages={getPages} />
                     </div>
                 </div>
 
