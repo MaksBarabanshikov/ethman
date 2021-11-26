@@ -5,9 +5,7 @@ import './Components/Header/HeaderInnerOne.css'
 import {Route, Routes} from "react-router-dom";
 import HomePage from "./Pages/Home/Home";
 import Layout from "./Layout/layout";
-import HeaderInnerTwo from "./Components/Header/HeaderInnerTwo";
 import CataloguePage from "./Pages/Catalogue/CataloguePage";
-import ConnectMetaMask from "./Pages/Wallet/Component/ConnectMetaMask";
 import WalletPage from "./Pages/Wallet/WalletPage";
 
 function App() {

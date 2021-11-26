@@ -158,10 +158,34 @@ const itemsData = [
             img: "https://www.eth-men.com/images/catalogue/reavers/3.gif",
         },
         {
-            "id": 21,
+            "id": 23,
             type: "related",
             name: "#022 - Super (Crypto Dolphins x ETH-MEN)",
             img: "https://www.eth-men.com/images/catalogue/related/crypto_dolphins-eth-men.gif",
+        },
+        {
+            "id": 24,
+            type: "3D",
+            name: "Lord Zieg",
+            img: "https://www.eth-men.com/images/catalogue/3d/1_zieg.png",
+        },
+        {
+            "id": 25,
+            type: "3D",
+            name: "Godrick",
+            img: "https://www.eth-men.com/images/catalogue/3d/2_godrick.png",
+        },
+        {
+            "id": 26,
+            type: "3D",
+            name: "Pranksy",
+            img: "https://www.eth-men.com/images/catalogue/3d/3_pranksy.png",
+        },
+        {
+            "id": 27,
+            type: "3D",
+            name: "CHET",
+            img: "https://www.eth-men.com/images/catalogue/3d/4_chet.png",
         }
 ]
 
