@@ -3,6 +3,7 @@ const itemsData = [
             id: "1",
             type: "comics",
             name: "A Grim Cloud - Part 1",
+            address: "A_Grim_Cloud_-_Part_1",
             img: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch_small.png",
             pages: {
                 1: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/1.jpg",
@@ -22,19 +23,21 @@ const itemsData = [
             id: "2",
             type: "comics",
             name: "A Grim Cloud - Part 1",
+            address: "A_Grim_Cloud_Part_1_BW_Edition",
             img: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW_small.png",
             pages: {
-                1: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/1.jpg",
-                2: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/2.jpg",
-                3: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/3.jpg",
-                4: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/4.jpg",
-                5: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/5.jpg",
-                6: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/6.jpg",
-                7: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/7.jpg",
-                8: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/8.jpg",
-                9: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/9.jpg",
-                10: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/10.jpg",
-                11: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/11.jpg"
+                1: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/1.jpg",
+                2: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/2.jpg",
+                3: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/3.jpg",
+                4: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/4.jpg",
+                5: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/5.jpg",
+                6: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/6.jpg",
+                7: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/7.jpg",
+                8: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/8.jpg",
+                9: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/9.jpg",
+                10: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/10.jpg",
+                11: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/11.jpg",
+                12: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/12.jpg"
             }
         },
         {

@@ -7,6 +7,7 @@ import HomePage from "./Pages/Home/Home";
 import Layout from "./Layout/layout";
 import CataloguePage from "./Pages/Catalogue/CataloguePage";
 import WalletPage from "./Pages/Wallet/WalletPage";
+import ReadComicPage from "./Pages/ReadComic/ReadComicPage";
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                         <Route path="catalogue" element={<CataloguePage/>}/>
                     </Route>
                     <Route path="/wallet" element={<WalletPage/>}/>
+                    <Route path="/comic/:address" element={<ReadComicPage/>}/>
                 </Routes>
             </div>
         </Context.Provider>

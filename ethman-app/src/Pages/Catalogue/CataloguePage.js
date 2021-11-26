@@ -4,7 +4,6 @@ import CatalogueContent from "./Component/Content/CatalogueContent";
 import "./Categorue.css"
 import itemsData from "../../assets/ItemsData";
 import ViewImage from "./Component/Content/ViewImage";
-import {logDOM} from "@testing-library/react";
 
 function CataloguePage() {
     const [selectedCategory, setSelectedCategory] = useState('comics')
@@ -26,21 +25,22 @@ function CataloguePage() {
         setSelectedCategory(id)
     }
 
-    function  handlerOpen(img) {
+    function handlerOpen(img) {
         setVisible(true)
         setImgSrc(img)
-        console.log(setImgSrc)
-        console.log(setVisible)
+        document.body.style.overflow = "hidden"
     }
 
     function handlerClose() {
         setVisible(false)
+        document.body.style.overflow = "auto"
     }
 
-    console.log(imgSrc)
-    console.log(visible)
+    function handlerGetPages(pages) {
+        console.log(pages)
+    }
+
     let viewImage = visible ? ((<ViewImage img={imgSrc} onClick={handlerClose}/>)) : undefined;
-    console.log(viewImage)
     return (
         <div className="catalogue">
             <div className="catalogue__container">
@@ -48,7 +48,8 @@ function CataloguePage() {
                     <meta itemProp="inLanguage" content="en-GB"/>
                     <div id="ethmen-catalogue">
                         <CatalogueCategory category={category} checkId={handlerClick}/>
-                        <CatalogueContent itemsData={itemsData} selectedCategory={selectedCategory} openImg={handlerOpen}/>
+                        <CatalogueContent itemsData={itemsData} selectedCategory={selectedCategory}
+                                          openImg={handlerOpen} getPages={handlerGetPages}/>
                     </div>
                 </div>
 
