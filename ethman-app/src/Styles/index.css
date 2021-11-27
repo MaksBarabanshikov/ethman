@@ -1,50 +1,57 @@
 html {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  font-size: 17px;
-  font-weight: normal;
-  width: 100%;
-  color: #494949;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  background-color: transparent;
-  background-image: url("../img/main-bg/blackBack.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: normal;
+    width: 100%;
+    color: #494949;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    background-color: transparent;
+    background-image: url("../img/main-bg/blackBack.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 body {
-  margin: 0;
-  padding: 3rem;
-  font-family: "Sigmar One", serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  max-width: 96rem;
-  width: 100%;
-  background-color: transparent;
+    margin: 0;
+    padding: 3rem;
+    font-family: "Sigmar One", serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 96rem;
+    width: 100%;
+    background-color: transparent;
 }
 
 .wrapper {
-  width: 100%;
-  max-height: 100vh;
+    width: 100%;
+    max-height: 100vh;
 }
 
 h1 {
-  margin: 0.67em 0;
+    margin: 0.67em 0;
+}
+
+@media only screen and (max-width: 1425px) {
+    body {
+        padding: 1rem;
+    }
+
 }

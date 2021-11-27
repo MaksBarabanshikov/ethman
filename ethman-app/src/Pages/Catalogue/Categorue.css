@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    color: #494949!important;
+    color: #494949 !important;
 }
 
 #ethmen .catalogue #ethmen-catalogue {
@@ -21,8 +21,8 @@
 #ethmen .catalogue #ethmen-catalogue .catalogue__category ul li {
     white-space: nowrap;
     padding: 1rem;
-    border-top: 1px solid rgba(0,0,0,0.05);
-    background-color: rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.05);
     cursor: pointer;
 }
 
@@ -37,9 +37,7 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     width: 100%;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: start;
+    align-items: flex-start;
 }
 
 #ethmen .catalogue #ethmen-catalogue .catalogue__content .item {
@@ -59,11 +57,11 @@
     -ms-flex-preferred-size: calc(25% - 1rem);
     flex-basis: calc(25% - 1rem);
     min-width: 0;
-    border: 1px solid rgba(0,0,0,0.05);
-    background-color: rgba(0,0,0,0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
-#ethmen .catalogue #ethmen-catalogue .catalogue__content .item .image{
+#ethmen .catalogue #ethmen-catalogue .catalogue__content .item .image {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -81,7 +79,7 @@
     display: inline-block;
     text-overflow: ellipsis;
     white-space: nowrap;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     padding: 0.5rem;
 }
 
@@ -105,7 +103,7 @@
     white-space: nowrap;
     font-size: 0.7rem;
     padding: 0.4rem 0.2rem;
-    background-color: rgba(0,0,0,0.05);
+    background-color: rgba(0, 0, 0, 0.05);
     -webkit-box-flex: 1;
     flex-grow: 1;
     flex-shrink: 1;
@@ -132,14 +130,39 @@
 }
 
 #ethmen .catalogue #ethmen-catalogue .catalogue__category ul li:hover {
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 #ethmen .catalogue #ethmen-catalogue .catalogue__content .links a:hover {
     color: #494949;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 #ethmen .catalogue #ethmen-catalogue .catalogue__content .links a:last-child {
     margin-right: 0;
+}
+
+@media only screen and (max-width: 1425px) {
+    #ethmen .catalogue #ethmen-catalogue {
+        font-size: 0.8rem;
+    }
+
+    #ethmen .catalogue #ethmen-catalogue .catalogue__content .item {
+        -ms-flex-preferred-size: calc(33% - 1rem);
+        flex-basis: calc(33% - 1rem);
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    #ethmen .catalogue #ethmen-catalogue {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    #ethmen .catalogue #ethmen-catalogue .catalogue__content .item {
+        flex-basis: calc(50% - 0.5rem);
+        margin: 1rem 0.5rem 0 0;
+    }
 }

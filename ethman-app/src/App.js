@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import Context from "./context";
 import WikiPage from "./Pages/Wiki/Wiki";
 import './Components/Header/HeaderInnerOne.css'
 import {Route, Routes} from "react-router-dom";
@@ -15,19 +14,18 @@ function App() {
         setSelectedPages(pages)
     }
     return (
-        <Context.Provider value={{}}>
             <div className="wrapper">
                 <Routes>
                     <Route path="/" element={<Layout/>}>
                         <Route index element={<HomePage/>}/>}/>
                         <Route path="wiki" element={<WikiPage/>}/>
                         <Route path="catalogue" element={<CataloguePage getPages={handlerGetPages}/>}/>
+
                     </Route>
                     <Route path="/wallet" element={<WalletPage/>}/>
                     <Route path="/comic/:address" element={<ReadComicsPage selectedPage={selectedPages}/>}/>
                 </Routes>
             </div>
-        </Context.Provider>
     );
 }
 

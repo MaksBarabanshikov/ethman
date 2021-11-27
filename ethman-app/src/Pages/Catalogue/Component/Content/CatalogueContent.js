@@ -8,7 +8,7 @@ function CatalogueContent({itemsData, selectedCategory,openImg,getPages}) {
                 return (
                     <Item key={itemsData.id} itemsData={itemsData} onClick={openImg} selectComics={getPages}/>
                 )
-            }
+            } else return null
         })}
     </div>)
 

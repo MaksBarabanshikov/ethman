@@ -6,7 +6,7 @@ function ItemLink({type,address,pages,onClick}) {
     if (type === "comics") {
         return (
             <>
-                <a href="#" target="_blank">
+                <a href="https://opensea.io/" target="_blank" rel="noreferrer">
                     <img src={logoLink} alt="logo"/>
                     Comic
                 </a>
@@ -18,14 +18,14 @@ function ItemLink({type,address,pages,onClick}) {
         )
     } else if (type === "figures") {
         return (
-            <a href="#" target="_blank">
+            <a href="https://opensea.io/" target="_blank" rel="noreferrer">
                 <img src={logoLink} alt="logo"/>
                 Card
             </a>
         )
     } else {
         return (
-            <a href="#" target="_blank">
+            <a href="https://opensea.io/" target="_blank" rel="noreferrer">
                 <img src={logoLink} alt="logo"/>
             </a>
         )

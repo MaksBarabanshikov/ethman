@@ -76,25 +76,27 @@ function WikiPage() {
                         contract.</p>
                 </Collapsible>
                 <Collapsible trigger="Where can I find all different collections?">
-                    <a href="https://opensea.io/assets/eth-men" target="_blank">https://opensea.io/assets/eth-men
+                    <a href="https://opensea.io/assets/eth-men" target="_blank" rel="noreferrer">https://opensea.io/assets/eth-men
                         (Legacy)</a>
-                    <a href="https://opensea.io/assets/eth-men-2-0" target="_blank">https://opensea.io/assets/eth-men-2-0
+                    <a href="https://opensea.io/assets/eth-men-2-0" target="_blank" rel="noreferrer">https://opensea.io/assets/eth-men-2-0
                         (Reloaded)</a>
                     <a href="https://opensea.io/assets/eth-men-3d"
-                       target="_blank">https://opensea.io/assets/eth-men-3d</a>
+                       target="_blank" rel="noreferrer">https://opensea.io/assets/eth-men-3d</a>
                     <a href="https://opensea.io/assets/eth-men-avatars"
-                       target="_blank">https://opensea.io/assets/eth-men-avatars</a>
+                       target="_blank" rel="noreferrer">https://opensea.io/assets/eth-men-avatars</a>
                     <a href="https://opensea.io/assets/eth-men-comics"
-                       target="_blank">https://opensea.io/assets/eth-men-comics</a>
-                    <a href="https://opensea.io/assets/eth-men-comics-unsealed&quot;target=&quot;_blank">https://opensea.io/assets/eth-men-comics-unsealed</a>
-                    <a href="https://opensea.io/assets/eth-men-store" target="_blank">https://opensea.io/assets/eth-men-avatars
+                       target="_blank" rel="noreferrer">https://opensea.io/assets/eth-men-comics</a>
+                    <a href="https://opensea.io/assets/eth-men-comics-unsealed&quot;target=&quot;_blank"
+                       rel="noreferrer">https://opensea.io/assets/eth-men-comics-unsealed</a>
+                    <a href="https://opensea.io/assets/eth-men-store" target="_blank" rel="noreferrer">https://opensea.io/assets/eth-men-avatars
                         (Voxels)</a>
                     <a href="https://opensea.io/assets/eth-men-subscriptions"
-                       target="_blank">https://opensea.io/assets/eth-men-subscriptions</a>
+                       target="_blank" rel="noreferrer">https://opensea.io/assets/eth-men-subscriptions</a>
                 </Collapsible>
                 <Collapsible trigger="The Adventures of the ETH-MEN Comic WIKI">
                     <a href="https://ethmen-official.fandom.com/wiki/The_Adventures_of_the_ETH-MEN_Comic#Plot"
-                       target="_blank">https://ethmen-official.fandom.com/wiki/The_Adventures_of_the_ETH-MEN_Comic#Plot</a>
+                       target="_blank"
+                       rel="noreferrer">https://ethmen-official.fandom.com/wiki/The_Adventures_of_the_ETH-MEN_Comic#Plot</a>
                 </Collapsible>
             </div>
         </div>
