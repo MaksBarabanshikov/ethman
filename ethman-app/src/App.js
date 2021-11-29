@@ -5,7 +5,7 @@ import {Route, Routes} from "react-router-dom";
 import HomePage from "./Pages/Home/Home";
 import Layout from "./Layout/layout";
 import CataloguePage from "./Pages/Catalogue/CataloguePage";
-import WalletPage from "./Pages/Wallet/WalletPage";
+import WalletPage from "./Pages/Wallet/WalletPage"
 import ReadComicsPage from "./Pages/ReadComic/ReadComicPage";
 
 function App() {

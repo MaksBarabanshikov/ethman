@@ -19,7 +19,6 @@ function WalletPage() {
 
         addWalletListener()
     }, []);
-
     function addWalletListener() {
         if (window.ethereum) {
             window.ethereum.on("accountsChanged", (accounts) => {
@@ -50,16 +49,6 @@ function WalletPage() {
         setStatus(walletResponse.status)
         setWallet(walletResponse.address)
     };
-
-    // const onMintPressed = async () => {
-    //     const { success, status } = await mintNFT(url, name, description);
-    //     setStatus(status);
-    //     if (success) {
-    //         setName("");
-    //         setDescription("");
-    //         setURL("");
-    //     }
-    // };
 
     return (
         <div id="wallet">
