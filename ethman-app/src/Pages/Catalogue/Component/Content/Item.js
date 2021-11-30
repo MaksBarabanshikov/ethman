@@ -10,7 +10,7 @@ function Item({itemsData, onClick, selectComics}) {
 
             <div className="links">
                 <ItemLink type={itemsData.type} address={itemsData.address} pages={itemsData.pages}
-                          onClick={selectComics}/>
+                          price={itemsData.price} onClick={selectComics}/>
             </div>
         </div>
     )

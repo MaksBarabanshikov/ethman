@@ -33,44 +33,41 @@
 }
 
 .ETHMEN_3D {
-    background-image: url('../../img/slider/3d_background.jpg');
+    background-color: #d4ea91;
 }
 
 .ETHMEN_Store {
-    background-image: url('../../img/slider/store_background.jpg');
-}
+    background-color: #498428;}
 
 .ETHMEN_Exclusive {
-    background-image: url('../../img/slider/exclusive_background.jpg');
+    background-color: #143309;
 }
 
 .Reavers_Collection {
-    background-image: url('../../img/slider/reavers_background.jpg');
+    background-color: #38452d;
 }
 
 .ETHMEN_Legacy {
-    background-image: url('../../img/slider/slider_background.jpg');
-    background-size: 200%!important;
-    background-position: top left!important;
+    background-color: #498428;
 }
 
 .ETHMEN_Reloaded {
-    background-image: url('../../img/slider/slider_background.jpg');
-    background-size: 200%!important;
-    background-position: bottom left!important;
+    background-color: #d4ea91;
 }
 .ETHMEN_Avatars {
-    background-image: url('../../img/slider/avatar_background.jpg');
+    background-color: #38452d;
 }
 
 .ETHMEN_Comic {
-    background-image: url('../../img/slider/header_background.jpg');
-    background-size: 250%!important;
-    background-position: top left!important;
+    background-color: #d4ea91;
 }
 
 .ETHMEN_Comic_unsealed {
-    background-image: url('../../img/slider/header_background.jpg');
-    background-size: 200%!important;
-    background-position: bottom right!important;
+    background-color: #143309;
+}
+
+@media only screen and (max-width: 766px) {
+    #ethmen .products .splide .splide__slide {
+        margin: 0;
+    }
 }

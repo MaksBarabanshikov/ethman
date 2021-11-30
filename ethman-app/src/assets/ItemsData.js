@@ -116,53 +116,236 @@ const itemsData = [
         ]
     },
     {
-        "id": 3,
-        type: "figures",
-        name: "Lord Zieg",
-        img: "https://www.eth-men.com/images/catalogue/figures/1_Zieg.png",
-        price: "300001 CLO"
+        id: "copy1",
+        type: "comics",
+        name: "A Grim Cloud - Part 1",
+        address: "A_Grim_Cloud_-_Part_1",
+        img: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch_small.png",
+        price: "300001 CLO",
+        pages: [
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/1.jpg",
+                pageNumber: "pageOne"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/2.jpg",
+                pageNumber: "pageTwo"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/3.jpg",
+                pageNumber: "pageThree"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/4.jpg",
+                pageNumber: "pageFour"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/5.jpg",
+                pageNumber: "pageFive"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/6.jpg",
+                pageNumber: "pageSix"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/7.jpg",
+                pageNumber: "pageSeven"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/8.jpg",
+                pageNumber: "pageEight"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/9.jpg",
+                pageNumber: "pageNine"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/10.jpg",
+                pageNumber: "pageTen"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/11.jpg",
+                pageNumber: "pageEleven"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/12.jpg",
+                pageNumber: "pageTwelve"
+            }
+        ]
     },
     {
-        "id": 4,
-        type: "figures",
-        name: "Godrick",
-        img: "https://lh3.googleusercontent.com/2oXhRYTY6F7CRcewo2q4oFaLfkFwoOKAEbLYRE4ypItZRmvSAK0kevxYDEfyy-U4JoQo1CaZT85jNz2Et_-AdJx1=s0",
-        price: "300001 CLO"
+        id: "copy2",
+        type: "comics",
+        name: "A Grim Cloud - Part 1",
+        address: "A_Grim_Cloud_Part_1_BW_Edition",
+        img: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW_small.png",
+        price: "300001 CLO",
+        pages: [
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/1.jpg",
+                pageNumber: "pageOne"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/2.jpg",
+                pageNumber: "pageTwo"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/3.jpg",
+                pageNumber: "pageThree"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/4.jpg",
+                pageNumber: "pageFour"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/5.jpg",
+                pageNumber: "pageFive"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/6.jpg",
+                pageNumber: "pageSix"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/7.jpg",
+                pageNumber: "pageSeven"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/8.jpg",
+                pageNumber: "pageEight"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/9.jpg",
+                pageNumber: "pageNine"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/10.jpg",
+                pageNumber: "pageTen"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/11.jpg",
+                pageNumber: "pageEleven"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/12.jpg",
+                pageNumber: "pageTwelve"
+            }
+        ]
     },
     {
-        "id": 5,
-        type: "figures",
-        name: "Pranksy",
-        img: "https://lh3.googleusercontent.com/0HxGT_4yPipyv-eYE2MzKdjltMhzTKvfgv7oIlmBqzCk8CP0Qd1GgE-ON8mP6Ju8rrYTuoQPPibjoKn1AO7d6KnJ=s0",
-        price: "300001 CLO"
+        id: "copy3",
+        type: "comics",
+        name: "A Grim Cloud - Part 1",
+        address: "A_Grim_Cloud_-_Part_1",
+        img: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch_small.png",
+        price: "300001 CLO",
+        pages: [
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/1.jpg",
+                pageNumber: "pageOne"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/2.jpg",
+                pageNumber: "pageTwo"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/3.jpg",
+                pageNumber: "pageThree"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/4.jpg",
+                pageNumber: "pageFour"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/5.jpg",
+                pageNumber: "pageFive"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/6.jpg",
+                pageNumber: "pageSix"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/7.jpg",
+                pageNumber: "pageSeven"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/8.jpg",
+                pageNumber: "pageEight"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/9.jpg",
+                pageNumber: "pageNine"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/10.jpg",
+                pageNumber: "pageTen"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/11.jpg",
+                pageNumber: "pageEleven"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_Sketch/12.jpg",
+                pageNumber: "pageTwelve"
+            }
+        ]
     },
     {
-        "id": 6,
-        type: "figures",
-        name: "CHET",
-        img: "https://lh3.googleusercontent.com/kk74eIly2OuehoBlHcrxZempm_2KeeDlazdP5cWbKfZnlqt0Wf6eKPRAndI4FZiMUQqhqmMPWqeP0fNj_i9hW3EvPUnzymnvFyMe=s0",
-        price: "300001 CLO"
-    },
-    {
-        "id": 7,
-        type: "figures",
-        name: "5412",
-        img: "https://www.eth-men.com/images/catalogue/figures/5_5412.png",
-        price: "300001 CLO"
-    },
-    {
-        "id": 8,
-        type: "figures",
-        name: "Nature",
-        img: "https://www.eth-men.com/images/catalogue/figures/6_Nature.png",
-        price: "300001 CLO"
-    },
-    {
-        "id": 9,
-        type: "figures",
-        name: "Ôtomo Keshin",
-        img: "https://www.eth-men.com/images/catalogue/figures/7_Otomo.png",
-        price: "300001 CLO"
+        id: "copy4",
+        type: "comics",
+        name: "A Grim Cloud - Part 1",
+        address: "A_Grim_Cloud_Part_1_BW_Edition",
+        img: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW_small.png",
+        price: "300001 CLO",
+        pages: [
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/1.jpg",
+                pageNumber: "pageOne"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/2.jpg",
+                pageNumber: "pageTwo"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/3.jpg",
+                pageNumber: "pageThree"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/4.jpg",
+                pageNumber: "pageFour"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/5.jpg",
+                pageNumber: "pageFive"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/6.jpg",
+                pageNumber: "pageSix"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/7.jpg",
+                pageNumber: "pageSeven"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/8.jpg",
+                pageNumber: "pageEight"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/9.jpg",
+                pageNumber: "pageNine"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/10.jpg",
+                pageNumber: "pageTen"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/11.jpg",
+                pageNumber: "pageEleven"
+            },
+            {
+                page: "https://www.eth-men.com/images/catalogue/comics/1_A_Grim_Cloud_BW/12.jpg",
+                pageNumber: "pageTwelve"
+            }
+        ]
     },
     {
         "id": 10,
@@ -235,34 +418,6 @@ const itemsData = [
         price: "300001 CLO"
     },
     {
-        "id": 20,
-        type: "reavers",
-        name: "Space Reavers - #1 - Gal Gebra",
-        img: "https://www.eth-men.com/images/catalogue/reavers/1.jpg",
-        price: "300001 CLO"
-    },
-    {
-        "id": 21,
-        type: "reavers",
-        name: "Space Reavers - #2 - Aldo Sec",
-        img: "https://www.eth-men.com/images/catalogue/reavers/2.jpg",
-        price: "300001 CLO"
-    },
-    {
-        "id": 22,
-        type: "reavers",
-        name: "Space Reavers - #3 - Dalgo Gosch",
-        img: "https://www.eth-men.com/images/catalogue/reavers/3.gif",
-        price: "300001 CLO"
-    },
-    {
-        "id": 23,
-        type: "related",
-        name: "#022 - Super (Crypto Dolphins x ETH-MEN)",
-        img: "https://www.eth-men.com/images/catalogue/related/crypto_dolphins-eth-men.gif",
-        price: "300001 CLO"
-    },
-    {
         "id": 24,
         type: "3D",
         name: "Lord Zieg",
@@ -289,7 +444,120 @@ const itemsData = [
         name: "CHET",
         img: "https://www.eth-men.com/images/catalogue/3d/4_chet.png",
         price: "300001 CLO"
+    },
+    {
+        "id": 28,
+        type: "3D",
+        name: "Godrick",
+        img: "https://www.eth-men.com/images/catalogue/3d/2_godrick.png",
+        price: "300001 CLO"
+    },
+    {
+        "id": 29,
+        type: "3D",
+        name: "Lord Zieg",
+        img: "https://www.eth-men.com/images/catalogue/3d/1_zieg.png",
+        price: "300001 CLO"
+    },
+
+    {
+        "id": 30,
+        type: "3D",
+        name: "CHET",
+        img: "https://www.eth-men.com/images/catalogue/3d/4_chet.png",
+        price: "300001 CLO"
+    },
+    {
+        "id": 31,
+        type: "3D",
+        name: "Pranksy",
+        img: "https://www.eth-men.com/images/catalogue/3d/3_pranksy.png",
+        price: "300001 CLO"
+    },
+    {
+        "id": 32,
+        type: "avatars",
+        name: "#3",
+        img: "https://www.eth-men.com/images/catalogue/avatars/3.png",
+        price: "300001 CLO"
+    },
+    {
+        "id": 33,
+        type: "avatars",
+        name: "#4",
+        img: "https://www.eth-men.com/images/catalogue/avatars/4.png",
+        price: "300001 CLO"
+    },
+    {
+        "id": 34,
+        type: "avatars",
+        name: "#1",
+        img: "https://www.eth-men.com/images/catalogue/avatars/1.png",
+        price: "300001 CLO"
+    },
+    {
+        "id": 35,
+        type: "avatars",
+        name: "#2",
+        img: "https://www.eth-men.com/images/catalogue/avatars/2.png",
+        price: "300001 CLO"
+    },
+    {
+        "id": 36,
+        type: "cryptovoxels",
+        name: "Lord Zieg´s Mask",
+        img: "https://www.eth-men.com/images/catalogue/cryptovoxels/lord_ziegs_mask.gif",
+        price: "300001 CLO"
+    },
+    {
+        "id": 37,
+        type: "cryptovoxels",
+        name: "Chet´s Snow Slam",
+        img: "https://www.eth-men.com/images/catalogue/cryptovoxels/chets_snow_slam.gif",
+        price: "300001 CLO"
+    }, {
+        "id": 38,
+        type: "cryptovoxels",
+        name: "Lord Zieg´s Skull",
+        img: "https://www.eth-men.com/images/catalogue/cryptovoxels/lord_ziegs_skull.gif",
+        price: "300001 CLO"
+    },
+    {
+        "id": 39,
+        type: "cryptovoxels",
+        name: "Pranksy´s Side Cut",
+        img: "https://www.eth-men.com/images/catalogue/cryptovoxels/pranksys_side_cut.gif",
+        price: "300001 CLO"
+    },
+    {
+        "id": 40,
+        type: "exclusive",
+        name: "Eth-Men Collectors Card #5 - Murthre - Special Edition",
+        img: "https://www.eth-men.com/images/catalogue/exclusive/17_eth-men_exclusives.gif",
+        price: "300001 CLO"
+    },
+    {
+        "id": 41,
+        type: "exclusive",
+        name: "ETH-MEN Exclusive/1/The Showdown",
+        img: "https://www.eth-men.com/images/catalogue/exclusive/2_eth-men_exclusives.png",
+        price: "300001 CLO"
+    },
+    {
+        "id": 42,
+        type: "exclusive",
+        name: "Eth-Men Collectors Card #2 - Zieg - Rare",
+        img: "https://www.eth-men.com/images/catalogue/exclusive/4_eth-men_exclusives.gif",
+        price: "300001 CLO"
+    },
+    {
+        "id": 43,
+        type: "exclusive",
+        name: "Eth-Men Collectors Card #1 - Zieg - Common",
+        img: "https://www.eth-men.com/images/catalogue/exclusive/3_eth-men_exclusives.gif",
+        price: "300001 CLO"
     }
+
 ]
 
 export default itemsData

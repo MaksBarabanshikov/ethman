@@ -8,7 +8,7 @@ function Magazine({selectedPage}) {
                 width={600}
                 height={750}
                 size="stretch"
-                maxShadowOpacity={0.5}
+                maxShadowOpacity={1}
                 showCover={true}
                 mobileScrollSupport={true}>
                 {selectedPage.map(selectedPage => {

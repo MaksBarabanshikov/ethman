@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../img/header/eth-men_logo.png";
+import logo from "../../img/header/logoCSC.png";
 import "./HeaderInnerOne.css";
 import {NavLink} from "react-router-dom";
 

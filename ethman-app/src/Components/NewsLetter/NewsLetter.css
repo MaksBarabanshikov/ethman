@@ -3,10 +3,9 @@
     display: -ms-flexbox;
     display: flex;
     padding: 3rem;
-    background-color: #5c6f51;
+    background-color: #498428;
     color: white;
     font-family: "Sigmar One", serif;
-    background-image: url('../../img/newsletter/newsletter_background.jpg');
     background-size: 100%;
     background-position: center center;
     -webkit-box-pack: center;
@@ -68,8 +67,8 @@
 }
 
 #ethmen .newsletter .module__button input {
-    background-color: #506046;
-    color: white;
+    background-color: #fff;
+    color: #494949;
     padding: 1rem;
     border: 0;
     border-radius: 0.5rem;
@@ -88,13 +87,17 @@
         font-size: 1rem;
     }
 
-    #ethmen .newsletter .acysubbuttons input {
-        width: 100%;
-        max-width: 100%;
-    }
-
     #ethmen .newsletter .module__button input {
         width: 100%;
         max-width: 100%;
     }
+}
+    @media only screen and (max-width: 560px) {
+        .newsletter .module__table .module__input {
+           flex-direction: column;
+        }
+
+        #ethmen .module__table .module__input input {
+            max-width: 100%;
+        }
 }

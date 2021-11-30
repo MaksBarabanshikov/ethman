@@ -1,10 +1,6 @@
 #ethmen .catalogue {
     background-color: #f3efe0;
     padding: 3rem;
-    background-image: url("../../img/wiki/comic_background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
     color: #494949 !important;
 }
 
@@ -154,6 +150,12 @@
 
 }
 
+@media only screen and (max-width: 1000px) {
+    #ethmen .catalogue #ethmen-catalogue .catalogue__content .item {
+        flex-basis: calc(50% - 1.5rem);
+    }
+}
+
 @media only screen and (max-width: 767px) {
     #ethmen .catalogue #ethmen-catalogue {
         -webkit-box-orient: vertical;
@@ -161,8 +163,26 @@
         -ms-flex-direction: column;
         flex-direction: column;
     }
-    #ethmen .catalogue #ethmen-catalogue .catalogue__content .item {
+
+    #ethmen .catalogue #ethmen-catalogue .catalogue__content .item:nth-child(even) {
+        flex-basis: calc(50% - 0.5rem);
+        margin: 1rem 0 0 0.5rem;
+    }
+
+    #ethmen .catalogue #ethmen-catalogue .catalogue__content .item:nth-child(odd) {
         flex-basis: calc(50% - 0.5rem);
         margin: 1rem 0.5rem 0 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #ethmen .catalogue #ethmen-catalogue .catalogue__content .item:nth-child(even) {
+        flex-basis: calc(100%);
+        margin: 1rem 0 0 0;
+    }
+
+    #ethmen .catalogue #ethmen-catalogue .catalogue__content .item:nth-child(odd) {
+        flex-basis: calc(100%);
+        margin: 1rem 0 0 0;
     }
 }

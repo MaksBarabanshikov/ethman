@@ -37,6 +37,10 @@
     white-space: normal;
 }
 
+.featherlight-content {
+    margin: 1% 5%;
+}
+
 .featherlight .featherlight-close-icon {
     position: absolute;
     z-index: 9999;

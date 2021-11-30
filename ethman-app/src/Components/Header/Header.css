@@ -9,10 +9,7 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-image: url("../../img/header/header_background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-color: #143309;
 }
 
 #ethmen .header .header__inner-two {
@@ -43,7 +40,6 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-image: url("../../img/header/description_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -52,6 +48,7 @@
     -webkit-box-shadow: 0 0 2px 0 white;
     box-shadow: 0 0 2px 0 white;
     margin: 0 3rem 5rem;
+    background-color: #498428;
 }
 
 #ethmen .header .header__inner-two .description h1 {
@@ -116,5 +113,13 @@
     #ethmen .header .header__inner-two .description h2 {
         margin: 0 0 2rem 0;
         font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    #ethmen .header .header__inner-one .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

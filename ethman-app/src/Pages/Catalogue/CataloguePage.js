@@ -11,14 +11,12 @@ function CataloguePage({getPages}) {
     const [imgSrc, setImgSrc] = useState('')
 
     const category = [
-        {id: "figures", name: "ETH-MEN Figures"},
-        {id: "3D", name: "ETH-MEN 3D"},
         {id: "comics", name: "ETH-MEN Comics"},
+        {id: "3D", name: "ETH-MEN 3D"},
         {id: "avatars", name: "ETH-MEN Avatars"},
         {id: "exclusive", name: "ETH-MEN Exclusive"},
         {id: "cryptovoxels", name: "ETH-MEN Cryptovoxels"},
-        {id: "reavers", name: "ETH-MEN Reavers"},
-        {id: "related", name: "ETH-MEN Related"}
+        {id: "memes", name: "ETH-MEN Memes"},
     ]
 
     function handlerClick(id) {

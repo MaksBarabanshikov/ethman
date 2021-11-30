@@ -71,3 +71,14 @@
     webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+@media only screen and (max-width: 470px) {
+    #ethmen .footer .social img {
+        max-width: 2.3rem;
+        margin: 0.62rem;
+        display: -moz-inline-stack;
+        display: inline-block;
+        _overflow: hidden;
+        zoom: 1;
+    }
+}

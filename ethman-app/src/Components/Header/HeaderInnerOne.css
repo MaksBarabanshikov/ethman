@@ -23,6 +23,11 @@
     width: 100%;
 }
 
+#ethmen .header__inner-one .logo a {
+    display: block;
+    width: 100%;
+}
+
 #ethmen .header__inner-one a {
     padding: 0.5rem 0.5rem;
     font-size: 1.2rem;
