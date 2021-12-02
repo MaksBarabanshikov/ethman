@@ -102,7 +102,23 @@
     }
 
     #ethmen .header .header__inner-two .description {
-        padding: 0 1rem;
+        padding: 0 4rem;
+        margin: 0 2rem 2rem;
+    }
+
+    #ethmen .header .header__inner-two .description h1 {
+        font-size: 2rem;
+    }
+
+    #ethmen .header .header__inner-two .description h2 {
+        margin: 0 0 2rem 0;
+        font-size: 1rem;
+        -webkit-text-stroke: 0 black;
+    }
+}
+@media only screen and (max-width: 800px) {
+    #ethmen .header .header__inner-two .description {
+        padding: 0 2rem;
         margin: 0 1rem 2rem;
     }
 
@@ -115,8 +131,10 @@
         font-size: 1rem;
     }
 }
-
 @media only screen and (max-width: 470px) {
+    #ethmen .header .header__inner-two .description {
+        padding: 0 1rem;
+    }
     #ethmen .header .header__inner-one .nav {
         display: flex;
         flex-direction: column;

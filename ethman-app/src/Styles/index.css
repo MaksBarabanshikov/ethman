@@ -35,7 +35,7 @@ body {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    max-width: 96rem;
+    max-width: 90%;
     width: 100%;
     background-color: transparent;
 }
@@ -51,7 +51,13 @@ h1 {
 
 @media only screen and (max-width: 1425px) {
     body {
-        padding: 1rem;
+        padding: 0;
     }
 
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        max-width: 100%;
+    }
 }

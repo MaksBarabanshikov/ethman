@@ -18,7 +18,7 @@ function SliderList(props) {
                 arrows: false,
                 flickPower: 100,
                 breakpoints: {
-                    1000: {
+                    1200: {
                         perPage: 2,
                     },
                     767: {
