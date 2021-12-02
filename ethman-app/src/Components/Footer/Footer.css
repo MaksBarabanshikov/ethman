@@ -20,7 +20,7 @@
 #ethmen .footer .logo {
     margin: 0 auto;
     padding: 1rem 1rem 0 1rem;
-    max-width: 18rem;
+    max-width: 20rem;
     width: 100%;
 }
 
@@ -73,6 +73,9 @@
 }
 
 @media only screen and (max-width: 470px) {
+    #ethmen .footer .social img {
+        max-width: 18rem;
+    }
     #ethmen .footer .social img {
         max-width: 2.3rem;
         margin: 0.62rem;
