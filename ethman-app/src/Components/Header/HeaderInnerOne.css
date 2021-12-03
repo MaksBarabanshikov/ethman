@@ -1,4 +1,4 @@
-#ethmen .header__inner-one {
+#ethmen .header__inner_one {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -16,30 +16,85 @@
     flex-wrap: wrap;
     width: 100%;
     padding: 1.3rem 3rem;
+    position: relative;
 }
 
-#ethmen .header__inner-one .logo {
+#ethmen .header__inner_one .logo {
     max-width: 18rem;
     width: 100%;
 }
 
-#ethmen .header__inner-one .logo a {
+#ethmen .header__inner_one .logo a {
     display: block;
     width: 100%;
 }
 
-#ethmen .header__inner-one a {
+#ethmen .header__inner_one a {
     padding: 0.5rem 0.5rem;
     font-size: 1.2rem;
 }
 
-#ethmen .header__inner-one a {
+#ethmen .header__inner_one a {
     text-decoration: none;
     white-space: nowrap;
     color: #fff;
 }
 
-#ethmen .header__inner-one a:hover {
+#ethmen .mobileStyle #bnt_menu{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    outline: none;
+}
+
+#ethmen .mobileStyle #bnt_menu span{
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 2px;
+    top: 50%;
+    left: 50%;
+    margin-top: -1px;
+    margin-left: -10px;
+    background-color: #000;
+    border-radius: 1px;
+}
+#ethmen .mobileStyle #bnt_menu span::before,
+#ethmen .mobileStyle #bnt_menu span::after {
+    content: '';
+    width: 20px;
+    height: 2px;
+    display: block;
+    background-color: #000;
+    border-radius: 1px;
+    position: absolute;
+    transition: all linear 0.15s;
+}
+
+#ethmen .mobileStyle #bnt_menu span::before {
+    transform: translateY(-6px);
+}
+#ethmen .mobileStyle #bnt_menu span::after {
+    transform: translateY(6px);
+}
+#ethmen .mobileStyle .btnOpen span{
+    height: 0!important;
+}
+#ethmen .mobileStyle .btnOpen span::before {
+    transform: rotate(-45deg)!important;
+}
+#ethmen .mobileStyle .btnOpen span::after {
+    transform: rotate(45deg)!important;
+}
+
+
+#ethmen .header__inner_one a:hover {
     color: #d6d6d6;
     text-shadow: 0 0 5px #000;
 }

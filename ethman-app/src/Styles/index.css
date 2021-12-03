@@ -20,6 +20,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    height: 100vh;
 }
 
 body {
@@ -38,6 +39,7 @@ body {
     max-width: 90%;
     width: 100%;
     background-color: transparent;
+    height: 100vh;
 }
 
 .wrapper {

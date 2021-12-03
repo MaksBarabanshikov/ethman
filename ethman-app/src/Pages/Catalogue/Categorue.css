@@ -155,7 +155,11 @@
         flex-basis: calc(50% - 1.5rem);
     }
 }
-
+@media only screen and (max-width: 800px) {
+    #ethmen .catalogue {
+        padding-top: 175px;
+    }
+}
 @media only screen and (max-width: 767px) {
     #ethmen .catalogue #ethmen-catalogue {
         -webkit-box-orient: vertical;
@@ -184,5 +188,12 @@
     #ethmen .catalogue #ethmen-catalogue .catalogue__content .item:nth-child(odd) {
         flex-basis: calc(100%);
         margin: 1rem 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    #ethmen .catalogue {
+        padding: 145px 1.5rem 0;
+
     }
 }

@@ -77,7 +77,7 @@
 
 @media only screen and (max-width: 1425px) {
 
-    #ethmen .header .header__inner-one {
+    #ethmen .header .header__inner_one {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -85,12 +85,12 @@
         padding: 1rem;
     }
 
-    #ethmen .header .header__inner-one .logo {
+    #ethmen .header .header__inner_one .logo {
         max-width: 15rem;
         width: 100%;
     }
 
-    #ethmen .header .header_inner-one .nav {
+    #ethmen .header .header_inner_one .nav {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -99,6 +99,8 @@
         justify-content: center;
         padding: 0.5rem 0.5rem;
         margin: auto;
+        opacity: 1;
+        height: auto;
     }
 
     #ethmen .header .header__inner-two .description {
@@ -116,7 +118,19 @@
         -webkit-text-stroke: 0 black;
     }
 }
+
 @media only screen and (max-width: 800px) {
+    #ethmen .header .header__inner_one {
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        background-color: #143309;
+    }
+
+    #ethmen .header .header__inner-two {
+        padding-top: 175px;
+    }
+
     #ethmen .header .header__inner-two .description {
         padding: 0 2rem;
         margin: 0 1rem 2rem;
@@ -130,14 +144,40 @@
         margin: 0 0 2rem 0;
         font-size: 1rem;
     }
+
 }
+
 @media only screen and (max-width: 470px) {
+    #ethmen .header .header__inner_one .logo {
+        align-self: start;
+    }
+    #ethmen .header .header__inner-two {
+        padding-top: 145px;
+    }
     #ethmen .header .header__inner-two .description {
         padding: 0 1rem;
     }
-    #ethmen .header .header__inner-one .nav {
+
+    #ethmen .header .header__inner_one .nav {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        opacity: 0;
+        height: 0;
+        transition: all linear 0.15s;
+        overflow: hidden;
+    }
+
+    #ethmen .header .mobileStyle .open {
+        display: flex;
+        height: 100vh;
+        padding-top: 25%;
+        opacity: 1;
+    }
+
+    #ethmen .header .header_inner_one .nav a {
+        width: 100%;
+        text-align: center;
     }
 }

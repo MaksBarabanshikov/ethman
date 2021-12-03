@@ -141,6 +141,8 @@
     font-size: .8rem;
     margin-top: auto;
     box-shadow: rgb(12 12 12 / 20%) 0 0 10px 0;
+    position: absolute;
+    bottom: 0;
 }
 
 #footer .no_decoration {
@@ -148,16 +150,33 @@
     text-decoration: none;
 }
 
-@media (max-width: 768px) {
-    #header {
+@media only screen and (max-width: 768px) {
+    #banner h1 {
+        font-size: 2.5rem;
+    }
+    #banner p {
+        font-size: 1.2rem;
+    }
+    #footer {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 602px) {
+    #wallet__header {
         flex-direction: column;
         justify-content: center;
         text-align: center;
     }
 
-    #footer {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
+    #wallet__menu .inner {
+        margin: 0.2rem;
+    }
+
+    #wallet__menu .inner .menu__item {
+        padding: 0.3rem 0.5rem;
+        margin: 0.1rem;
     }
 }

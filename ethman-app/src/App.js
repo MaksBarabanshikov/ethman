@@ -13,19 +13,20 @@ function App() {
     function handlerGetPages(pages) {
         setSelectedPages(pages)
     }
-    return (
-            <div className="wrapper">
-                <Routes>
-                    <Route path="/" element={<Layout/>}>
-                        <Route index element={<HomePage/>}/>}/>
-                        <Route path="wiki" element={<WikiPage/>}/>
-                        <Route path="catalogue" element={<CataloguePage getPages={handlerGetPages}/>}/>
 
-                    </Route>
-                    <Route path="/wallet" element={<WalletPage/>}/>
-                    <Route path="/comic/:address" element={<ReadComicsPage selectedPage={selectedPages}/>}/>
-                </Routes>
-            </div>
+    return (
+        <div className="wrapper">
+            <Routes>
+                <Route path="/" element={<Layout/>}>
+                    <Route index element={<HomePage/>}/>
+                    <Route path="wiki" element={<WikiPage/>}/>
+                    <Route path="catalogue" element={<CataloguePage getPages={handlerGetPages}/>}/>
+
+                </Route>
+                <Route path="/wallet" element={<WalletPage/>}/>
+                <Route path="/comic/:address" element={<ReadComicsPage selectedPage={selectedPages}/>}/>
+            </Routes>
+        </div>
     );
 }
 

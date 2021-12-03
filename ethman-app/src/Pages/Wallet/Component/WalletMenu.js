@@ -5,15 +5,12 @@ function WalletMenu() {
     return(
         <div id="wallet__menu">
             <div className="inner">
-                <MenuItem name="LEGACY"/>
-                <MenuItem name="RELOADED"/>
                 <MenuItem name="COMICS"/>
-                <MenuItem name="COMICS UNSEALED"/>
-                <MenuItem name="AVATARS"/>
                 <MenuItem name="3D"/>
-                <MenuItem name="SPACE REAVERS"/>
+                <MenuItem name="AVATARS"/>
                 <MenuItem name="EXCLUSIVE"/>
-                <MenuItem name="VOXELS"/>
+                <MenuItem name="CRYPTOVOXELS"/>
+                <MenuItem name="MEMES"/>
             </div>
         </div>
     )
